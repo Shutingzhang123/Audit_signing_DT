@@ -1,0 +1,22 @@
+Name: Groups
+Id: g=74384cedf86c553e9d08e64c67671565
+Type: GroupsCategoryFolder
+Children:
+- Name: Group1
+  Id: g=dccb43feddfb4b8121f2a41abe69bab8
+  Type: GroupType
+- Name: Group2
+  Id: g=334a855d5936279067841f20773c0c88
+  Type: GroupType
+- Name: Group3
+  Id: g=b8ca4a8faf14522eb5422ff82d8edec0
+  Type: GroupType
+- Name: Group4
+  Id: g=2c0c3730c16d8ad56c7ba092d2fc28b8
+  Type: GroupType
+- Name: Group5
+  Id: g=cfa9dea1704fa67e54b6571e6bf4f77a
+  Type: GroupType
+- Name: Group6
+  Id: g=62f8a79f8723dfe019956a22d70056bc
+  Type: GroupType

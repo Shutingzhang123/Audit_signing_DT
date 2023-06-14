@@ -1,0 +1,344 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1_Default_User
+  Id: g=d6b46d3fba52d0c9e9411c1ab4b597af
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"a526517a172b128fe53e61e654fe728a","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"fe92728b1e16f009aae5b5fc2b5aee17","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Type: BaseObjectType
+- Name: Variable2_Sign_User
+  Id: g=8bbc2e8138c20206e2a5a269e7ea3ec3
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 0
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"b15d038da1be78ce80b463fbbd2ed1f0","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cce02878f3c05f069b511f044ee3934c","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User3
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"1e58c5e87f31c72b7fbe27a847198ded","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: Variable3_Double Sign_User
+  Id: g=4ffe0c6d4c4948ca947e390071b6a3d2
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"c6f27ce26910f1854a50a1d21e4efd70","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"fe92728b1e16f009aae5b5fc2b5aee17","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User3
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"b15d038da1be78ce80b463fbbd2ed1f0","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: Variable1_Default_Group
+  Id: g=d24557f8aad645c1626f30ccfd0bebf4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"dccb43feddfb4b8121f2a41abe69bab8","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: Group2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"2c0c3730c16d8ad56c7ba092d2fc28b8","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: Group3
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cfa9dea1704fa67e54b6571e6bf4f77a","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+- Name: Variable2_Sign_Group
+  Id: g=5cc9a829ed3207faf632824420754436
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"b8ca4a8faf14522eb5422ff82d8edec0","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: Variable3_Double Sign_Group
+  Id: g=c130da8a84206101d202e7d975663d00
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:0.0000000"
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"b8ca4a8faf14522eb5422ff82d8edec0","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: Group2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cfa9dea1704fa67e54b6571e6bf4f77a","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: Variable4_Confirm_Group
+  Id: g=0b9d5fb659a81d8f0292718b869f4515
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2023-01-01T00:00:00.0000000"
+  Children:
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cfa9dea1704fa67e54b6571e6bf4f77a","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 0
+- Name: Object1
+  Id: g=535854dfc77e529300fed39e9f425e91
+  Type: BaseObjectType
+  Children:
+  - Name: Variable1
+    Id: g=7055d3b319bdabb59932004df0a70e29
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Variable3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+  - Name: Variable4
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3

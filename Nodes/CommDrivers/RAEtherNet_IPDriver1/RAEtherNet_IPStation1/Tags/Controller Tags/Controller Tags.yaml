@@ -1,0 +1,179 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: BOOL_1
+  Id: g=92108df769f400ab481da221b9095023
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_1"
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"943edd80cad4bd2d84f2ede2470f5981","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"2b20182141dd6bee16ec9e1846e36dd6","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cfa9dea1704fa67e54b6571e6bf4f77a","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: DINT_2
+  Id: g=c1d5d38e295e6729c7c9c1580458d221
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DINT_2"
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"fe92728b1e16f009aae5b5fc2b5aee17","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cfa9dea1704fa67e54b6571e6bf4f77a","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+- Name: STRING_1
+  Id: g=7e578b29abf85ad1b7427f3f93a2074c
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "STRING_1"
+  - Name: AuditSigning Signature
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Type: BaseObjectType
+      Children:
+      - Name: User1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"b15d038da1be78ce80b463fbbd2ed1f0","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+      - Name: User2
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"cce02878f3c05f069b511f044ee3934c","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":14,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: Groups
+      Type: BaseObjectType
+      Children:
+      - Name: Group1
+        Type: NodePointer
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"2c0c3730c16d8ad56c7ba092d2fc28b8","Namespace":7}
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"Id":17,"Namespace":1}
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          Value: 0
+    - Name: WorkflowType
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+  - Name: Encoding
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
